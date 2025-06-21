@@ -181,4 +181,3 @@ cython_debug/
 .cursorindexingignore
 asi
 asi2/models
-asi2/data
