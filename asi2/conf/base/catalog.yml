@@ -1,0 +1,15 @@
+vehicles:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/vehicles.csv
+merged_data:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/merged_data.parquet
+cleaned_data:
+  type: pandas.ParquetDataset
+  filepath: data/03_primary/cleaned_data.parquet
+predictors:
+  type: pickle.PickleDataset
+  filepath: data/06_models/autogluon_models
+result:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/output.parquet
