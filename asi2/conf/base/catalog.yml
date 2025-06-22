@@ -13,3 +13,6 @@ predictors:
 result:
   type: pandas.CSVDataset
   filepath: data/07_model_output/output.parquet
+autogluon_model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/autogluon_models
