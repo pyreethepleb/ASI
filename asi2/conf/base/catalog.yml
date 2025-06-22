@@ -1,6 +1,6 @@
 vehicles:
   type: pandas.CSVDataset
-  filepath: data/01_raw/vehicles.csv
+  filepath: data/01_raw/vehicles_short.csv
 merged_data:
   type: pandas.ParquetDataset
   filepath: data/02_intermediate/merged_data.parquet

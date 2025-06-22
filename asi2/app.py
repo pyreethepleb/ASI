@@ -8,8 +8,8 @@ import sys
 
 sys.path.append(str(Path(__file__).resolve().parent / "src"))
 
-df = pd.read_csv("data/01_raw/vehicles.csv", nrows=15000)
-df.to_csv("data/01_raw/vehicles_short.csv", sep=";", index=False)
+df = pd.read_csv("data/01_raw/vehicles_short.csv", nrows=15000)
+#df.to_csv("data/01_raw/vehicles_short.csv", sep=",", index=False)
 
 project_path = Path.cwd()
 package_name = "asi2"
